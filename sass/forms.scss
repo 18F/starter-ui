@@ -1,0 +1,5 @@
+input[type=submit], .button {
+    @include border-radius(3px, 3px);
+    background-color: $dark-green;
+    color: $white;
+}
