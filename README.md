@@ -1,7 +1,7 @@
 18F Stylesheet
 ======================
 
-For when you want to get up and go, and also on-brand.
+For when you want to get up and go, and also stay on-brand.
 
 ### Install dependencies:
 ```
