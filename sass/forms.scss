@@ -3,3 +3,9 @@ input[type=submit], .button {
     background-color: $dark-green;
     color: $white;
 }
+
+input[type=text] {
+    color: $medium-gray;
+    @include border-radius(3px, 3px);
+    border: 0.1em solid $light-gray;
+}
