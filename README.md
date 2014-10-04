@@ -8,14 +8,14 @@ Fork me to use as a foundation for your project, add in your HTML and custom CSS
 
 ### Install dependencies:
 ```
-gem install sass
-gem install compass
-gem install compass-normalize
+$ gem install sass
+$ gem install compass
+$ gem install compass-normalize
 ```
 
 ### Compile the CSS: 
 ```
-compass compile sass/styles.scss
+$ compass compile sass/styles.scss
 ```
 
 ### In your HTML:
