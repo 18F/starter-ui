@@ -1,0 +1,27 @@
+/*
+ * Single center-aligned column grid
+ *
+ * _____________________________________________________
+ * |           outer container = 12 cols               |
+ * |                                                   |
+ * |       __________________________________          |
+ * |       |   .main-column = 8 cols        |          |
+ * |       |                                |          |
+ * |       |                                |          |
+ * |2 cols |                                | 2 cols   |
+ * |       |                                |          |
+ * |       |                                |          |
+ * |       |                                |          |
+ * |       __________________________________          |
+ * _____________________________________________________
+ *
+ */
+
+body {
+    @include outer-container;
+}
+
+.main-column {
+    @include span-columns(8);
+    @include shift(2);
+}
