@@ -32,3 +32,5 @@ $ sass sass/styles.scss styles.css
 ### Starter Grids:
 
 There are some basic starter grids to give your project a little structure quickly. They are in ```sass/grids```. To include one in your project, import it in ```sass/custom.scss``` using ```@import 'grids/grid-file-name';```
+
+They are made so that you can use them modularly. You can include multiple in your project and by including the correct class names in your HTML, can use different column configurations within the pages of your site.
