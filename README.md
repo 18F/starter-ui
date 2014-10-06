@@ -1,4 +1,4 @@
-18F Stylesheet
+18F Starter UI
 ======================
 
 For when you want to get up and go, and also stay on-brand.
