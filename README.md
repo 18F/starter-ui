@@ -5,6 +5,7 @@ For when you want to get up and go, and also stay on-brand.
 
 ### How to use:
 Fork me to use as a foundation for your project, add in your HTML and custom CSS/Sass.
+Start creating custom styles, if desired, in ```sass/custom.scss```.
 
 ### Install dependencies:
 ```
@@ -27,3 +28,7 @@ $ sass sass/styles.scss styles.css
 
 - [Neat](http://neat.bourbon.io/) for grids
 - [Bourbon](http://bourbon.io/) for handy Sass mixins
+
+### Starter Grids:
+
+There are some basic starter grids to give your project a little structure quickly. They are in ```sass/grids```. To include one in your project, import it in ```sass/custom.scss``` using ```@import 'grids/grid-file-name';```
