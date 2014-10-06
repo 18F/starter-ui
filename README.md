@@ -22,3 +22,8 @@ $ sass sass/styles.scss styles.css
 <link href='http://fonts.googleapis.com/css?family=Raleway:300,400,600,700|Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
 <link href="styles.css" rel="stylesheet" type="text/css" />
 ```
+
+### Included tools:
+
+- [Neat](http://neat.bourbon.io/) for grids
+- [Bourbon](http://bourbon.io/) for handy Sass mixins
