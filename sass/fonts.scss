@@ -5,6 +5,11 @@ $raleway-semibold: 'Raleway SemiBold',  'Helvetica Neue', Helvetica, Arial, sans
 
 body {
     font-family: $open-sans;
+    font-size: 62.5%; // 1em = 10px
+}
+
+p, strong, em, aside, section, nav, div, span {
+    font-size: 1.4em;
 }
 
 h1, h2 {
