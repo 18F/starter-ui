@@ -9,6 +9,7 @@ Fork me to use as a foundation for your project, add in your HTML and custom CSS
 ### Install dependencies:
 ```
 $ gem install sass
+$ gem install bourbon
 ```
 
 ### Compile the CSS (from the project root): 
