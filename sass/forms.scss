@@ -1,9 +1,11 @@
 input[type=submit], .button {
+    border-radius: (3px, 3px);
     background-color: $dark-green;
     color: $white;
 }
 
 input[type=text] {
+    border-radius: (3px, 3px);
     color: $medium-gray;
     border: 0.1em solid $light-gray;
 }
