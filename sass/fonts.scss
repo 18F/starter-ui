@@ -1,18 +1,40 @@
 $open-sans: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$open-sans-light: 'Open Sans Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$raleway-bold: 'Raleway Bold',  'Helvetica Neue', Helvetica, Arial, sans-serif;
-$raleway-semibold: 'Raleway SemiBold',  'Helvetica Neue', Helvetica, Arial, sans-serif;
+$raleway: 'Raleway',  'Helvetica Neue', Helvetica, Arial, sans-serif;
 
-body {
+//open-sans and raleway mixins are just for consistency/ease of use
+@mixin open-sans() {
     font-family: $open-sans;
 }
 
+@mixin raleway() {
+    font-family: $raleway;
+}
+
+@mixin open-sans-light() {
+    font-family: $open-sans;
+    font-weight: 300;
+}
+
+@mixin raleway-bold() {
+    font-family: $raleway;
+    font-weight: 800;
+}
+
+@mixin raleway-semibold() {
+    font-family: $raleway;
+    font-weight: 700;
+}
+
+body {
+    @include open-sans();
+}
+
 h1, h2 {
-    font-family: $raleway-bold;
+    @include raleway-bold();
 }
 
 h3, h4 {
-    font-family: $raleway-semibold;
+    @include raleway-semibold();
 }
 
 h1 {
@@ -32,6 +54,6 @@ h4 {
 }
 
 h5 {
-    font-family: $open-sans-light;
+    @include open-sans-light();
     font-size: 1.313em;
 }

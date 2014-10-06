@@ -1,6 +1,6 @@
 /* Common layout elements */
 
 .tag {
-    font-family: $raleway-bold;
+    @include raleway-bold();
     font-size: 1.3em;
 }

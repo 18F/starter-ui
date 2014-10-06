@@ -1,5 +1,5 @@
 input {
-    font-family: $open-sans-light;
+    @include open-sans-light();
     font-size: 1.2em;
     border-radius: 3px;
 }
