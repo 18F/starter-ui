@@ -11,6 +11,10 @@ input[type=submit], .button {
     padding: .25em 1em .35em 1em;
 }
 
+input[type=submit]:hover, .button:hover {
+    background-color: $dark-green;
+}
+
 input[type=text] {
     color: $medium-gray;
     border: 1px solid $light-gray;
