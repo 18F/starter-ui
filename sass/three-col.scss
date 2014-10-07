@@ -1,0 +1,23 @@
+/*
+ * Three column grid
+ *
+ * ______________________________________________________
+ * |   .container-three-col = 12 cols                   |
+ * |                                                    |
+ * |______________     ______________     ______________|
+ * |   .column            .column           .column     |
+ * |   = 4 cols           = 4 cols          = 4 cols    |
+ * |                                                    |
+ * |______________     ______________     ______________|
+ * |                                                    |
+ * ______________________________________________________
+ *
+ */
+
+.container-three-col {
+    @include outer-container;
+
+    .column {
+        @include span-columns(4);
+    }
+}
