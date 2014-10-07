@@ -24,4 +24,8 @@
         @include span-columns(8);
         @include shift(2);
     }
+
+    .span-all {
+        @include span-columns(12);
+    }
 }

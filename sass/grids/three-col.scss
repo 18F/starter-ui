@@ -33,6 +33,5 @@
 
     .span-all {
         @include span-columns(12);
-        @include pad(0 default);
     }
 }
