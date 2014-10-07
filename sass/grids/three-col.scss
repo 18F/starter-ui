@@ -23,12 +23,12 @@
     }
 
     .column:last-child {
-        @include span-column(4);
+        @include span-columns(4);
         @include pad(0 default 0 0);
     }
 
     .column {
-        @include span-column(3);
+        @include span-columns(3);
     }
 
     .span-all {
