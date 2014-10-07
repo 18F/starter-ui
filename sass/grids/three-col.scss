@@ -19,12 +19,12 @@
 
     .column:first-child {
         @include span-columns(4);
-        @include pad(0, 0, 0, default);
+        @include pad(0 0 0 default);
     }
 
     .column:last-child {
         @include span-column(4);
-        @include pad(0, default, 0, 0);
+        @include pad(0 default 0 0);
     }
 
     .column {
@@ -33,6 +33,6 @@
 
     .span-all {
         @include span-columns(12);
-        @include pad(0, default);
+        @include pad(0 default);
     }
 }
